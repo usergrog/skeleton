@@ -16,8 +16,8 @@ tasks.whenTaskAdded { task ->
 apply plugin: 'com.android.library'
 apply plugin: 'maven'
 
-def versionName = "0.0.5"
-def versionCode = 100 + Integer.parseInt(
+def vName = "0.0.5"
+def vCode = Integer.parseInt(
         'git rev-list --count HEAD'.execute([], project.rootDir).text.trim())
 
 android {
@@ -27,8 +27,8 @@ android {
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 23
-        versionCode versionCode
-        versionName versionName
+        versionCode vCode
+        versionName vName
 
     }
     buildTypes {
@@ -46,7 +46,7 @@ android {
             pom.project {
                 groupId 'com.marssoft'
                 artifactId 'skeleton'
-                version versionName
+                version vName
             }
         }
     }
