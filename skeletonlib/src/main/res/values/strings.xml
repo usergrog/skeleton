@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name" translatable="false">SkeletonLib</string>
-    <string name="loading_video">Loading video</string>
-    <string name="unable_load_post">Unable to load post.</string>
-    <string name="check_inet">Please, check your internet connection and try again.</string>
-    <string name="loading">Loading</string>
-    <string name="send_to">Send to</string>
-    <string name="post_reload_text">Reload</string>
-</resources>

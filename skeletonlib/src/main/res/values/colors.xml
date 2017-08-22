@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="toolbarColor">#f7f7f7</color>
-    <color name="primaryGrey">#ff535353</color>
-    <color name="menuIconsColor">#ff535353</color>
-    <color name="black1">#222</color>
-    <color name="grey">#777</color>
-    <color name="lightGrey">#aaa</color>
-</resources>
