@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check_inet">Vennligst sjekk din internettforbindelse og prøv igjen.</string>
+    <string name="loading">Lasting...</string>
+    <string name="loading_video">Laster video</string>
+    <string name="send_to">Send til</string>
+    <string name="unable_load_post"> Kan ikke laste innlegget.</string>
+    <string name="post_reload_text">Last inn på nytt</string>
+</resources>
