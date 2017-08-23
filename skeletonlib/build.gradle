@@ -1,5 +1,5 @@
 repositories {
-    mavenLocal()
+    maven { url "https://raw.github.com/usergrog/utils-lib/mvn-repo" }
     flatDir {
         dirs 'libs'
     }
@@ -55,7 +55,7 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile("no.innocode:utils:${UTILS_VERSION}")
+    compile("com.marssoft:utils:${UTILS_VERSION}")
     testCompile 'junit:junit:4.12'
     compile "com.android.support:appcompat-v7:${GOOGLE_VERSION}"
     compile "com.android.support:recyclerview-v7:${GOOGLE_VERSION}"
@@ -63,7 +63,7 @@ dependencies {
     compile "io.reactivex:rxjava:${RXJAVA_VERSION}"
     compile "io.reactivex:rxandroid:${RXANDROID_VERSION}"
 
-    compile ("com.google.android.gms:play-services-analytics:${PLAY_SERVICES_VERSION}"){
+    compile("com.google.android.gms:play-services-analytics:${PLAY_SERVICES_VERSION}") {
         exclude module: 'support-v4'
     }
 

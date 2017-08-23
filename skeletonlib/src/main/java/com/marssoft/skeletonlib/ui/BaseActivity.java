@@ -22,9 +22,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.marssoft.skeletonlib.core.BackStackInterface;
+import com.marssoft.utils.lib.logs.Log;
 
 import no.innocode.skeletonlib.R;
-import no.innocode.utils.lib.logs.Log;
 import rx.subscriptions.CompositeSubscription;
 
 /**
