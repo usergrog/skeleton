@@ -8,7 +8,7 @@
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
-      <groupId>no.innocode</groupId>
+      <groupId>com.marssoft</groupId>
       <artifactId>utils</artifactId>
       <version>0.0.20</version>
       <scope>compile</scope>
